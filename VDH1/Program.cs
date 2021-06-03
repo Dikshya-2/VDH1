@@ -10,7 +10,7 @@ namespace VDH1
         static void Main(string[] args)
         {
             Console.WriteLine((new Niels()).FullName);
-            //Console.WriteLine((new Gitklasse1()).FullName);
+            Console.WriteLine((new Gitklasse1()).FullName);
         }
     }
 }
