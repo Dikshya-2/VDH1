@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace VDH1.Students.Dikshya
 {
-    class gitklasse1
+    class Gitklasse1
     {
         public string FullName { get; set; }
-       
+        // public string FullName { get => "Dikshya Singh"; }
+        public Gitklasse1(string fullName = "Dikshya")
+        {
+            FullName = fullName;
+        }
+
     }
 }
